@@ -4,6 +4,5 @@ euros_count = 100
 dollars = euros_count * 1.25
 rubles = dollars * 60
 print(dollars)
-print('\n')
 print(rubles)
 # END
