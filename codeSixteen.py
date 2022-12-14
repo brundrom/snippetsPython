@@ -8,4 +8,12 @@ text = 'When \t\n you play a \t\n game of thrones you win or you die.'
 # BEGIN (write your solution here)
 slice_params = slice(5, 16)
 print(len(text[slice_params].strip()))
+
+
+# first function
+def print_text():
+    print('hi, pga')
+
+
+print_text()
 # END
