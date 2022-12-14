@@ -5,8 +5,8 @@
 
 def get_age_difference(year_past, year_present):
     result = year_present - year_past
-    return 'The age difference is ' + str(result)
+    return 'The age difference is ' + str(abs(result))
 
 
-actual = get_age_difference(2001, 2018)
+actual = get_age_difference(2020, 2010)
 print(actual)
