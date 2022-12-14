@@ -5,7 +5,7 @@
 value = "-42"
 
 # BEGIN (write your solution here)
-value = str(abs(float(value)))
+value = str(int(abs(float(value))))
 # END
 
 print(value)
