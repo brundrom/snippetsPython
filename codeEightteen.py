@@ -5,4 +5,3 @@
 def truncate(text, count):
     text = text[0:count]
     return text + '...'
-
