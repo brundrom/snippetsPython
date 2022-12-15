@@ -1,13 +1,8 @@
-def is_vowel(text):
-    low_text = text.lower()
+def is_vowel(symbol):
+    low_sym = symbol.lower()
     vowels = 'aeioquy'
-    vowels_count = 0
-    index = 0
-    while index < len(text):
-        for i in vowels:
-            if low_text[index] == i:
-                vowels_count += 1
-        return vowels_count
+    for i in vowels:
+        return low_sym == i
 
 
 print(is_vowel('a'))  # True
