@@ -14,7 +14,7 @@ def sort_pair(cort):
         return (one, two)
 
 
-print(sort_pair((5, 1)))
-print(sort_pair((2, 2)))
-print(sort_pair((7, 8)))
+sort_pair((5, 1))
+sort_pair((2, 2))
+sort_pair((7, 8))
 
