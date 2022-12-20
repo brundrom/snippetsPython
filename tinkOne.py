@@ -3,7 +3,7 @@ b = input()
 
 
 def contest(digitOne, digitTwo):
-    return int(digitOne)+int(digitTwo)
+    return digitOne+digitTwo
 
 print(contest(a, b))
 
